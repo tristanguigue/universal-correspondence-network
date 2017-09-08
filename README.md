@@ -1,8 +1,9 @@
 This is an implementation of [1] using Tensorflow. No attempt has been done in actually training the network. This does a forward and backward pass on a batch of images from the KITTI dataset.
 
 # Usage
-`pip3 install pykitti`
-`python3 main.py --frames_stop=50 --frame_step=5 --learning_rate=0.005 --corres=1000`
+```pip3 install pykitti```
+
+```python3 main.py --frames_stop=50 --frame_step=5 --learning_rate=0.005 --corres=1000```
 
 # Data Loading
 pykitti is used to load the images from both left and right cameras.
